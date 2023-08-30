@@ -34,7 +34,6 @@ body {
     padding: 0px;
     gap: 32px;
     
-
     position: absolute;
     width: 685px;
     height: 28px;
@@ -54,14 +53,11 @@ body {
 
 
 .main-menu>ul>li>a{
-    color: white;
     text-decoration: none;
     display: block;
     padding: 15px;
-    font-family: 'Roboto', sans-serif;
     font-size: 1.5rem;
     font-style: normal;
-    
 }
 
 /* homepage */
@@ -74,19 +70,25 @@ body {
     
 }
 
+.title, .about-me, .copyright, .title-contact, .text-contact, .find-me, .portfolio-title, .copyright-portfolio, .portfolio-subtitle-work-1,
+.work-1>h3, .portfolio-subtitle-work-2, .work-2>h3, .button_text-2, .copyright-about-me, .about-me-title, .work-experience-title,
+.work-title-1, .work-title-2, .work-title-3, .work-title-4,  .skills-title, .languages-title, .certifications-title, .education-title,
+.degree-title, .main-menu>ul>li>a {
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+}
+
 .title{
     position: absolute;
     width: 626px;
     height: 169px;
     left: 446px;
     top: 572px;
-    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
     line-height: 56.25px;
     text-align: center;
-    color: #FFFFFF;
 }
 
 .about-me{
@@ -96,13 +98,11 @@ body {
     left: 446px;
     top: 572px;
     padding-top: 75px;
-    font-family: 'Roboto', sans-serif;
     font-style: italic;
     font-weight: 400;
     font-size: 32px;
     line-height: 37.5px;
     text-align: center;
-    color: #FFFFFF;
 }
 
 #next-page{
@@ -115,15 +115,16 @@ body {
 
 /* footer */
 
-.copyright {
-    font-family: 'Roboto', sans-serif;
+.copyright, .copyright-about-me, .copyright-portfolio {
     padding:15px;
     text-align: center;
-    color: white;
+}
+
+.copyright p, .copyright-portfolio p, .copyright-about-me p {
+    position: absolute;
 }
 
 .copyright p {
-    position: absolute;
     top: 975px;
     left: 625px;
     margin: 0px;
@@ -132,21 +133,17 @@ body {
 
 /* contact page */
 
-
 .title-contact{
     position: absolute;
     width: 890px;
     height: 263px;
     left: 310px;
     top: 338px;
-    font-family: 'Roboto', sans-serif;
     font-style: italic;
     font-weight: 400;
     font-size: 48px;
     line-height: 56px;
     text-align: center;
-
-    color: #FFFFFF;
 }
 
 .text-contact{
@@ -155,14 +152,11 @@ body {
     height: 263px;
     left: 310px;
     top: 475px;
-    font-family: 'Roboto', sans-serif;
     font-style: italic;
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
     text-align: center;
-    
-    color: #FFFFFF;
 }
 
 .find-me{
@@ -171,13 +165,11 @@ body {
     height: 263px;
     left: 310px;
     top: 555px;
-    font-family: 'Roboto', sans-serif;
     font-style: italic;
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
     text-align: center;
-    color: #FFFFFF;
 }
 
 .linkedin>a{
@@ -206,7 +198,7 @@ body {
 
 /* Portfolio */
 
-.container-portfolio{
+.container-portfolio {
     position: relative;
     width: 1512px;
     height: 1220px;
@@ -214,33 +206,21 @@ body {
     top: 45px;
 }
 
-
-.portfolio-title{
+.portfolio-title {
     position: absolute;
     width: 519px;
     height: 74px;
     left: 500px;
     top: 164px;
 
-    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
     line-height: 38px;
     text-align: center;
-
-    color: #FFFFFF;
-}
-
-.copyright-portfolio {
-    font-family: 'Roboto', sans-serif;
-    padding:15px;
-    text-align: center;
-    color: white;
 }
 
 .copyright-portfolio p {
-    position: absolute;
     top: 1200px;
     left: 625px;
     margin: 0px;
@@ -262,13 +242,10 @@ body {
     left: 879px;
     top: 430px;
 
-    font-family: 'Roboto', sans-serif;
     font-style: italic;
     font-weight: 400;
     font-size: 32px;
     line-height: 38px;
-
-    color: #FFFFFF;
 }
 
 .work-1>h3{
@@ -278,13 +255,10 @@ body {
     left: 879px;
     top: 484px;
 
-    font-family: 'Roboto';
     font-style: italic;
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
-
-    color: #FFFFFF;
 }
 
 .view-source-1{
@@ -337,20 +311,17 @@ body {
     top: 756px;
 }
 
-.portfolio-subtitle-work-2{
+.portfolio-subtitle-work-2 {
     position: absolute;
     width: 519px;
     height: 26px;
     left: 879px;
-    top: 859px;;
+    top: 859px;
 
-    font-family: 'Roboto';
     font-style: italic;
     font-weight: 400;
     font-size: 32px;
     line-height: 38px;
-
-    color: #FFFFFF;
 }
 
 .work-2>h3{
@@ -360,13 +331,10 @@ body {
     left: 879px;
     top: 911px;
 
-    font-family: 'Roboto';
     font-style: italic;
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
-
-    color: #FFFFFF;
 }
 
 .view-source-2{
@@ -388,13 +356,10 @@ body {
     top: 17.78%;
     bottom: 17.78%;
 
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 25px;
     line-height: 29px;
-
-    color: #FFFFFF;
 }
 
 .button_icon-2{
@@ -411,7 +376,7 @@ body {
 
 /* About me */
 
-.container-aboutme{
+.container-about-me{
     position: relative;
     width: 1512px;
     height: 2145px;
@@ -420,21 +385,11 @@ body {
     top: 45px;
 }
 
-.copyright-aboutme {
-    font-family: 'Roboto', sans-serif;
-    padding:15px;
-    text-align: center;
-    color: white;
-}
-
-.copyright-aboutme p {
-    position: absolute;
+.copyright-about-me p {
     top: 2150px;
     left: 625px;
     margin: 0px;
 }
-
-
 
 .about-me-text{
     position: absolute;
@@ -459,16 +414,13 @@ body {
     height: 50px;
     left: 76px;
     top: 20px;
-    
-    font-family: 'Roboto',sans-serif;
+
     font-style: italic;
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
     display: flex;
     align-items: center;
-    
-    color: #FFFFFF
 }
 
 .about-me-text>p{
@@ -514,15 +466,12 @@ body {
     left: 78px;
     top: 49px;
 
-    font-family: 'Roboto',sans-serif;
     font-style: italic;
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
     display: flex;
     align-items: center;
-
-    color: #FFFFFF;
 }
 
 .work-title-1{
@@ -531,16 +480,13 @@ body {
     height: 120px;
     left: 78px;
     top: 49px;
-    
-    font-family: 'Roboto',sans-serif;
+
     font-style: italic;
     font-weight: 700;
     font-size: 18px;
     line-height: 21px;
     display: flex;
     align-items: center;
-        
-    color: #FFFFFF;
 }
 
 .work_subtitle-1{
@@ -587,16 +533,13 @@ body {
     height: 460px;
     left: 78px;
     top: 49px;
-    
-    font-family: 'Roboto',sans-serif;
+
     font-style: italic;
     font-weight: 700;
     font-size: 18px;
     line-height: 21px;
     display: flex;
     align-items: center;
-        
-    color: #FFFFFF;
 }
 
 .work_subtitle-2{
@@ -623,16 +566,13 @@ body {
     height: 600px;
     left: 78px;
     top: 49px;
-    
-    font-family: 'Roboto',sans-serif;
+
     font-style: italic;
     font-weight: 700;
     font-size: 18px;
     line-height: 21px;
     display: flex;
     align-items: center;
-        
-    color: #FFFFFF;
 }
 
 .work_subtitle-3{
@@ -679,16 +619,13 @@ body {
     height: 910px;
     left: 78px;
     top: 49px;
-    
-    font-family: 'Roboto',sans-serif;
+
     font-style: italic;
     font-weight: 700;
     font-size: 18px;
     line-height: 21px;
     display: flex;
     align-items: center;
-        
-    color: #FFFFFF;
 }
 
 .work_subtitle-4{
@@ -752,15 +689,12 @@ body {
     width: 212px;
     height: 10px;
 
-    font-family: 'Roboto';
     font-style: italic;
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
     display: flex;
     align-items: center;
-
-    color: #FFFFFF;
 
     flex: none;
     order: 0;
@@ -806,7 +740,6 @@ body {
     width: 212px;
     height: 5px;
 
-    font-family: 'Roboto', sans-serif;
     font-style: italic;
     font-weight: 400;
     font-size: 24px;
@@ -814,17 +747,15 @@ body {
     display: flex;
     align-items: center;
 
-    color: #FFFFFF;
-
     flex: none;
     order: 0;
     flex-grow: 0;
 }
 
 .languages-list{
+
     width: 167px;
     height: 83px;
-   
     
     font-family: 'Lato' , sans-serif;
     font-style: normal;
@@ -863,32 +794,29 @@ body {
     border-radius: 20px;
 }
 
-.cerifications-title{
+.certifications-title{
     position: absolute;
     width: 909px;
     height: 80px;
     left: 78px;
     top: 10px;
 
-    font-family: 'Roboto';
     font-style: italic;
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
     display: flex;
     align-items: center;
-
-    color: #FFFFFF;
 }
 
-.certifiactions-list{
+.certifications-list{
     position: absolute;
     width: 909px;
     height: 381px;
     left: 68px;
     top: 90px;
 
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -921,7 +849,6 @@ body {
     border-radius: 20px;
 }
 
-
 .education-title{
     position: absolute;
     width: 446px;
@@ -929,15 +856,12 @@ body {
     left: 78px;
     top: 10px;
 
-    font-family: 'Roboto';
     font-style: italic;
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
     display: flex;
     align-items: center;
-
-    color: #FFFFFF;
 }
 
 .degree-title{
@@ -947,15 +871,12 @@ body {
     left: 78px;
     top: 60px;
 
-    font-family: 'Roboto';
     font-style: italic;
     font-weight: 700;
     font-size: 18px;
     line-height: 21px;
     display: flex;
     align-items: center;
-
-    color: #FFFFFF;
 }
 
 .education_subtitle{
@@ -975,4 +896,3 @@ body {
 
     color: #FFFFFF
 }
-
